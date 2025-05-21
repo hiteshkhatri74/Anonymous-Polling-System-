@@ -93,7 +93,7 @@ const SignIn = () => {
             <div className='w-full text-left text-sm px-2 mb-3'>
             <p> Don't have an account ? {" "}
                     <a 
-                        href='http://localhost:3000/signup'
+                        href={`${process.env.REACT_APP_FRONTEND_URL}/signup`}
                         className='text-red-400 hover:text-red-600'
                     >
                         SignUp

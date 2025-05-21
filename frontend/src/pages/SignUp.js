@@ -136,7 +136,7 @@ const SignUp = () => {
             <div className='w-full text-left text-sm px-2 mb-3'>
             <p> Already have an account ? {" "}
                     <a 
-                        href='http://localhost:3000/signin'
+                        href={`${process.env.REACT_APP_FRONTEND_URL}/signin`}
                         className='text-red-400 hover:text-red-600'
                     >
                         Login
